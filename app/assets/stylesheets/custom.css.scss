@@ -1,0 +1,53 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.darkest-bg   { background-color: #101010; }
+.darkest-bg-r { background-color: #1F1010; }
+.darkest-bg-g { background-color: #101F10; }
+.darkest-bg-b { background-color: #10101F; }
+
+.darker-bg    { background-color: #303030; }
+.darker-bg-r  { background-color: #3F3030; }
+.darker-bg-g  { background-color: #303F30; }
+.darker-bg-b  { background-color: #30303F; }
+
+.dark-bg      { background-color: #404040; }
+.dark-bg-r    { background-color: #4F4040; }
+.dark-bg-g    { background-color: #404F40; }
+.dark-bg-b    { background-color: #40404F; }
+
+.grey-bg      { background-color: #606060; }
+.grey-bg-r    { background-color: #6F6060; }
+.grey-bg-g    { background-color: #606F60; }
+.grey-bg-b    { background-color: #60606F; }
+
+.lightest-txt  { color: #f0f0f0; }
+.lighter-txt   { color: #d0d0d0; }
+.light-txt     { color: #b0b0b0; }
+.neutral-txt   { color: #909090; }
+
+.alert-notice {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+/*
+           
+none
+  brown yellow  
+  orange 
+  green 
+peach
+olive army
+lime
+turqoise aqua cyan
+ bluish baby blue navy
+pink magenta red
+  purple violet
+*/
+/*
+Luminisity: lightest lighter light neutral dark darker darkest
+Saturation -ish - -est
+
+
+*/
