@@ -1,26 +1,15 @@
 Rails.application.routes.draw do
-  get 'pages/home'
-
+  root 'pages#home'
   get 'pages/grids'
-
   get 'pages/buttons'
-
   get 'pages/glyphs'
-
   get 'pages/forms'
-
   get 'pages/dropdowns'
-
   get 'pages/tabs'
-
   get 'pages/navbars'
-
   get 'pages/list_groups'
-
   get 'pages/panels'
-
   get 'pages/model_windows'
-
   get 'pages/collapse_carousels'
 
   # The priority is based upon order of creation: first created -> highest priority.
