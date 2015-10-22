@@ -26,11 +26,32 @@
 .light-txt     { color: #b0b0b0; }
 .neutral-txt   { color: #909090; }
 
-.alert-notice {
+.hacker {
+  background-color: #404040;
+  color: #d0d0d0;
+}
+
+.jumbotron{
+color: #ffffd0 !important;
+background-color: #606F60 !important;
+}
+
+.link_btn {
+  text-decoration: none !important
+}
+
+
+.link-btn {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
+
+.spacer {
+  margin-top: 40px; /* define margin as you see fit */
+}
+
+
 /*
            
 none
