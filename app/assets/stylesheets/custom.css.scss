@@ -30,28 +30,61 @@
   background-color: #404040;
   color: #d0d0d0;
 }
-
-.jumbotron{
-color: #ffffd0 !important;
-background-color: #606F60 !important;
+.jumbotron {
+  color: #ffffd0 !important;
+  background-color: #606F60 !important;
+}
+.well {
+  color: #ffffd0 !important;
+  background-color: #606F60 !important;
+}
+a:hover, a:focus {
+    text-decoration: none !important;
 }
 
-.link_btn {
-  text-decoration: none !important
+.navbar{
+color: #b0b0b0 !important;
+background-color: #333333 !important;
+}
+
+.demo-container {
+  outline: 1px solid orange;
+  background-color: #404347;
+}
+
+.demo-row {
+    outline: 1px solid red;
+}
+
+.demo-col {
+    outline: 1px solid #20f030;
+}
+
+.btn-ghost{
+	background: transparent !important;
+	color: #F2F2F2 !important;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
 
-.link-btn {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
 
 .spacer {
   margin-top: 40px; /* define margin as you see fit */
 }
 
-
+xmp {
+  border:1px solid #999;
+  background-color: #444;
+  text-align: left;
+  color: #ffffd0;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
 /*
            
 none
