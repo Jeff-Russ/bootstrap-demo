@@ -1,2 +1,31 @@
-<h1>Pages#panels</h1>
-<p>Find me in app/views/pages/panels.html.erb</p>
+<div class="hacker">
+  <%= link_to root_path do %>  
+  <div class="well text-center link">
+    <h1 class="link">Bootstrap Demo</h1>
+  </div>
+  <% end %>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1">
+        <%= link_to "Prev", root_path, class: 'btn btn-default btn-ghost' %>
+      </div>
+      <div class="col-xs-9 text-center">
+        <h2>Title<h2>
+      </div>
+      <div class="col-xs-2">
+        <%= link_to "Next", root_path, class: 'btn btn-default btn-ghost' %>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1">
+        <%= link_to "Prev", root_path, class: 'btn btn-default btn-ghost' %>
+      </div>
+      <div class="col-xs-2 col-xs-offset-9">
+        <%= link_to "Next", root_path, class: 'btn btn-default btn-ghost' %>
+      </div>
+    </div>
+  </div>
