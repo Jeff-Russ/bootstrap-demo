@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <%= favicon_link_tag 'favicon.ico' %>
   <title>Bootstrap Demo</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="hacker">
+<body class="darkula">
   
   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
   <div class='container'>
@@ -22,11 +23,6 @@
       <% end %>
     </div>
     <div class="collapse navbar-collapse" >
-        <div class="nav navbar-nav navbar-right">
-          <%= link_to '#', class: 'navbar-brand' do %>
-          Jeff Russ
-          <% end %>
-        </div>
         
     </div><!-- /.navbar-collapse -->
   </div>

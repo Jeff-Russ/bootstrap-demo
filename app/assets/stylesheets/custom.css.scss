@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+/*
 .darkest-bg   { background-color: #101010; }
 .darkest-bg-r { background-color: #1F1010; }
 .darkest-bg-g { background-color: #101F10; }
@@ -25,45 +25,39 @@
 .lighter-txt   { color: #d0d0d0; }
 .light-txt     { color: #b0b0b0; }
 .neutral-txt   { color: #909090; }
-
-.hacker {
+*/
+.darkula {
   background-color: #404040;
   color: #d0d0d0;
 }
-.jumbotron {
-  color: #ffffd0 !important;
-  background-color: #606F60 !important;
+.black-text {
+  color: #000;
 }
-.well {
-  color: #ffffd0 !important;
-  background-color: #606F60 !important;
-}
-a:hover, a:focus {
-    text-decoration: none !important;
-}
-
-.navbar{
+.navbar {
 color: #b0b0b0 !important;
 background-color: #333333 !important;
 }
 
-.demo-container {
-  outline: 1px solid orange;
-  background-color: #404347;
+.jumbotron {
+  color: #ffffd0 !important;
+  background-color: #606F60 !important;
 }
 
-.demo-row {
-    outline: 1px solid red;
+.well {
+  color: #ffffd0 !important;
+  background-color: #606F60 !important;
 }
 
-.demo-col {
-    outline: 1px solid #20f030;
-}
+a:hover, a:focus { text-decoration: none !important; }
+.dark-bg-g    { background-color: #404347; }
+
+.border-orange { outline: 1px solid orange;  }
+.border-red    { outline: 1px solid red;     }
+.border-green  { outline: 1px solid #20f030; }
 
 .btn-ghost{
 	background: transparent !important;
 	color: #F2F2F2 !important;
-
 	/* CSS Transition */
 	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
 	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -72,11 +66,7 @@ background-color: #333333 !important;
 	transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
-
-
-.spacer {
-  margin-top: 40px; /* define margin as you see fit */
-}
+.spacer { margin-top: 40px; }
 
 xmp {
   border:1px solid #999;
