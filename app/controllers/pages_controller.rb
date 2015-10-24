@@ -1,37 +1,38 @@
 class PagesController < ApplicationController
-  def home
-  end
+	def home
+	end
 
-  def grids
-  end
+	def grids
+	end
 
-  def buttons
-  end
+	def buttons
+	end
 
-  def glyphs
-  end
+	def glyphs
+	end
 
-  def forms
-  end
+	def forms
+	end
 
-  def dropdowns
-  end
+	def dropdowns
+	end
 
-  def tabs
-  end
+	def tabs
+	end
 
-  def navbars
-  end
+	def navbars
+		render :layout => false
+	end
 
-  def list_groups
-  end
+	def list_groups
+	end
 
-  def panels
-  end
+	def panels
+	end
 
-  def model_windows
-  end
+	def model_windows
+	end
 
-  def collapse_carousels
-  end
+	def collapse_carousels
+	end
 end
