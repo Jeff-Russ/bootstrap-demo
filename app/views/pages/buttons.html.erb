@@ -1,37 +1,37 @@
 <%= link_to root_path do %>  
 <div class="well text-center link">
-  <h1 class="link">Bootstrap Demo</h1>
+	<h1 class="link">Bootstrap Demo</h1>
 </div>
 <% end %>
-  
+	
 <div class="row">
-  <div class="col-xs-1">
-    <%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
-  </div>
-  <div class="col-xs-9 text-center">
-    <h2>Buttons<h2>
-  </div>
-  <div class="col-xs-2">
-    <%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-  </div>
+	<div class="col-xs-1">
+		<%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
+	</div>
+	<div class="col-xs-9 text-center">
+		<h2>Buttons<h2>
+	</div>
+	<div class="col-xs-2">
+		<%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
+	</div>
 </div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-  <h4>Seven Colors</h4>
-  <button type="button" class="btn btn-default">Default</button>
-  <span type="button" class="btn btn-primary">Primary</span>
-  <div type="button" class="btn btn-success">Success</div>
-  <p type="button" class="btn btn-info">Info</p>
-  <form type="button" class="btn btn-warning">Warning</form>
-  <menuitem type="button" class="btn btn-danger">Danger</menuitem>
-  <input type="button" class="btn btn-link">Link</input>
+	<h4>Seven Colors</h4>
+	<button type="button" class="btn btn-default">Default</button>
+	<span type="button" class="btn btn-primary">Primary</span>
+	<div type="button" class="btn btn-success">Success</div>
+	<p type="button" class="btn btn-info">Info</p>
+	<form type="button" class="btn btn-warning">Warning</form>
+	<menuitem type="button" class="btn btn-danger">Danger</menuitem>
+	<input type="button" class="btn btn-link">Link</input>
 </div></div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1"><br>
-  Below is the code for the above buttons. As you can see, bootstrap buttons 
-  play nice with many different HTML elements. If inside a form, you would use 
-  type="submit" rather than type="button"<br>
-  <xmp>
+	Below is the code for the above buttons. As you can see, bootstrap buttons 
+	play nice with many different HTML elements. If inside a form, you would use 
+	type="submit" rather than type="button"<br>
+	<xmp>
 <button type="button" class="btn btn-default">Default</button>
 <span type="button" class="btn btn-primary">Primary</span>
 <div type="button" class="btn btn-success">Success</div>
@@ -39,56 +39,56 @@
 <form type="button" class="btn btn-warning">Warning</form>
 <menuitem type="button" class="btn btn-danger">Danger</menuitem>
 <input type="button" class="btn btn-link">Link</input>
-  </xmp>
-  <h4>As Links</h4>
-  Buttons can also be in used for links using the anchor tag or used with the 
-  link_to function in a Rails application:
-  <xmp>
+	</xmp>
+	<h4>As Links</h4>
+	Buttons can also be in used for links using the anchor tag or used with the 
+	link_to function in a Rails application:
+	<xmp>
 <a href="#" class="btn btn-default" role="button">GO!</a>
 <%= link_to "GO!", root_path, class: 'btn btn-default' %>
-  </xmp>
+	</xmp>
 </div> </div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-  <h4>Button Sizes</h4>
-  They are available in four different sizes:<br>
-  <button type="button" class="btn btn-primary btn-lg">Large</button>
-  <button type="button" class="btn btn-primary btn-md">Medium</button>
-  <button type="button" class="btn btn-primary btn-sm">Small</button>
-  <button type="button" class="btn btn-primary btn-xs">XSmall</button>
-  <xmp>
+	<h4>Button Sizes</h4>
+	They are available in four different sizes:<br>
+	<button type="button" class="btn btn-primary btn-lg">Large</button>
+	<button type="button" class="btn btn-primary btn-md">Medium</button>
+	<button type="button" class="btn btn-primary btn-sm">Small</button>
+	<button type="button" class="btn btn-primary btn-xs">XSmall</button>
+	<xmp>
 <button type="button" class="btn btn-primary btn-lg">Large</button>
 <button type="button" class="btn btn-primary btn-md">Medium</button>
 <button type="button" class="btn btn-primary btn-sm">Small</button>
 <button type="button" class="btn btn-primary btn-xs">XSmall</button>        
-  </xmp>
+	</xmp>
 </div></div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-  <h4>Disabled Buttons</h4>
-  Buttons can be either active or disabled. The active class makes a button 
-  be clickable, and the disabled class makes a button unavailable:<br><br>
-  <button type="button" class="btn btn-primary active">Active Primary</button>
-  <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
-  <xmp>
+	<h4>Disabled Buttons</h4>
+	Buttons can be either active or disabled. The active class makes a button 
+	be clickable, and the disabled class makes a button unavailable:<br><br>
+	<button type="button" class="btn btn-primary active">Active Primary</button>
+	<button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+	<xmp>
 <button type="button" class="btn btn-primary active">Active Primary</button>
 <button type="button" class="btn btn-primary disabled">Disabled Primary</button>        
-  </xmp>
+	</xmp>
 </div></div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-  <h4>Transparent Buttons</h4>
-  Although not part of bootstrap, you can get transparent buttons by using a 
-  little CSS.<br><br>
-  <button type="button" class="btn btn-default btn-ghost">Default</button>
-  <button type="button" class="btn btn-primary btn-ghost">Primary</button>
-  <button type="button" class="btn btn-success btn-ghost">Success</button>
-  <button type="button" class="btn btn-info btn-ghost">Info</button>
-  <button type="button" class="btn btn-warning btn-ghost">Warning</button>
-  <button type="button" class="btn btn-danger btn-ghost">Danger</button>
-  <br>this was done by adding the class btn-ghost which can be defined like this:<br>
-  
-  <xmp>
+	<h4>Transparent Buttons</h4>
+	Although not part of bootstrap, you can get transparent buttons by using a 
+	little CSS.<br><br>
+	<button type="button" class="btn btn-default btn-ghost">Default</button>
+	<button type="button" class="btn btn-primary btn-ghost">Primary</button>
+	<button type="button" class="btn btn-success btn-ghost">Success</button>
+	<button type="button" class="btn btn-info btn-ghost">Info</button>
+	<button type="button" class="btn btn-warning btn-ghost">Warning</button>
+	<button type="button" class="btn btn-danger btn-ghost">Danger</button>
+	<br>this was done by adding the class btn-ghost which can be defined like this:<br>
+	
+	<xmp>
 .btn-ghost{
 background: transparent !important;
 color: #F2F2F2 !important;
@@ -100,26 +100,26 @@ color: #F2F2F2 !important;
 -o-transition: background .2s ease-in-out, border .2s ease-in-out;
 transition: background .2s ease-in-out, border .2s ease-in-out;
 }       
-  </xmp>
+	</xmp>
 </div></div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1"> 
-  <h4>Block Level Buttons</h4>    
-  Normally a button will expand and contract to accomodate the contents inside it. 
-  A button with the class btn-block will span the entire width of the parent element.<br><br>
-  <button type="button" class="btn btn-primary btn-block">Button 1</button>
-  <xmp>
+	<h4>Block Level Buttons</h4>    
+	Normally a button will expand and contract to accomodate the contents inside it. 
+	A button with the class btn-block will span the entire width of the parent element.<br><br>
+	<button type="button" class="btn btn-primary btn-block">Button 1</button>
+	<xmp>
 <button type="button" class="btn btn-primary btn-block">Button 1</button>
-  </xmp>
+	</xmp>
 </div></div>
 
 
 <div class="row">
-  <div class="col-xs-1">
-    <%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
-  </div>
-  <div class="col-xs-2 col-xs-offset-9">
-    <%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-  </div>
+	<div class="col-xs-1">
+		<%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
+	</div>
+	<div class="col-xs-2 col-xs-offset-9">
+		<%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
+	</div>
 </div></div>
 

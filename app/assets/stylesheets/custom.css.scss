@@ -26,29 +26,14 @@
 .light-txt     { color: #b0b0b0; }
 .neutral-txt   { color: #909090; }
 */
-.darkula {
-  background-color: #404040;
-  color: #d0d0d0;
-}
-.black-text {
-  color: #000;
-}
-.navbar {
-color: #b0b0b0 !important;
-background-color: #333333 !important;
-}
-
-.jumbotron {
-  color: #ffffd0 !important;
-  background-color: #606F60 !important;
-}
-
-.well {
-  color: #ffffd0 !important;
-  background-color: #606F60 !important;
-}
+.jr-dark-body { color: #ffffd0; background-color: #404040; }
+.black-text   { color: #000; }
+.blacknav     { color: #b0b0b0 !important; background-color: #333333 !important; }
+.jumbotron    { color: #ffffd0 !important; background-color: #606F60 !important; }
+.well         { color: #ffffd0 !important; background-color: #606F60 !important; }
 
 a:hover, a:focus { text-decoration: none !important; }
+
 .dark-bg-g    { background-color: #404347; }
 
 .border-orange { outline: 1px solid orange;  }
@@ -69,25 +54,26 @@ a:hover, a:focus { text-decoration: none !important; }
 .spacer { margin-top: 40px; }
 
 xmp {
-  border:1px solid #999;
-  background-color: #444;
-  text-align: left;
-  color: #ffffd0;
-  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+	border:1px solid #999;
+	background-color: #444;
+	text-align: left;
+	color: #eeffee;
+	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+	font-size: 85%;
 }
 /*
-           
+					 
 none
-  brown yellow  
-  orange 
-  green 
+	brown yellow  
+	orange 
+	green 
 peach
 olive army
 lime
 turqoise aqua cyan
  bluish baby blue navy
 pink magenta red
-  purple violet
+	purple violet
 */
 /*
 Luminisity: lightest lighter light neutral dark darker darkest

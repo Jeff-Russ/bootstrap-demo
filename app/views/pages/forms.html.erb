@@ -1,133 +1,133 @@
 <%= link_to root_path do %>  
 <div class="well text-center link">
-  <h1 class="link">Bootstrap Demo</h1>
+	<h1 class="link">Bootstrap Demo</h1>
 </div>
 <% end %>
 
 <div class="row">
-  <div class="col-xs-1">
-    <%= link_to "Prev", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-  </div>
-  <div class="col-xs-9 text-center">
-    <h2>Forms<h2>
-  </div>
-  <div class="col-xs-2">
-    <%= link_to "Next", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
-  </div>
+	<div class="col-xs-1">
+		<%= link_to "Prev", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
+	</div>
+	<div class="col-xs-9 text-center">
+		<h2>Forms<h2>
+	</div>
+	<div class="col-xs-2">
+		<%= link_to "Next", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
+	</div>
 </div>
 
 <div class="row">
-  <div class="col-xs-10 col-xs-offset-1">
-    Basic HTML form look like below. To be submitted correctly, each input field 
-    must have a name attribute.<br>
-  </div>
-  <div class="col-xs-2  col-xs-offset-1" style="color:grey">
-    <br><br>
-    <form>
-      <fieldset>
-        <legend style="color:grey">Personal information:</legend>
-        Enter first name:<br>
-        <input type='text' name="firstname"><br>
-        Enter last name:<br>
-        <input type='text' name="lastname"><br>
-        <input type="radio" name="sex" value="male" checked>Male<br>
-        <input type="radio" name="sex" value="female">Female<br>
-        <input type="checkbox" name="remember" value="remember" checked> Remember me<br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
-  </div>
-  <div class="col-xs-6">
-    <xmp>
+	<div class="col-xs-10 col-xs-offset-1">
+		Basic HTML form look like below. To be submitted correctly, each input field 
+		must have a name attribute.<br>
+	</div>
+	<div class="col-xs-2  col-xs-offset-1" style="color:grey">
+		<br><br>
+		<form>
+			<fieldset>
+				<legend style="color:grey">Personal information:</legend>
+				Enter first name:<br>
+				<input type='text' name="firstname"><br>
+				Enter last name:<br>
+				<input type='text' name="lastname"><br>
+				<input type="radio" name="sex" value="male" checked>Male<br>
+				<input type="radio" name="sex" value="female">Female<br>
+				<input type="checkbox" name="remember" value="remember" checked> Remember me<br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</div>
+	<div class="col-xs-7">
+		<xmp>
 <form action='action_page.php' method="post">
-  <fieldset>
-    <legend>Personal information:</legend>
-    Enter first name:<br>
-    <input type='text' name="firstname"><br>
-    Enter last name:<br>
-    <input type='text' name="lastname"><br>
-    <input type="radio" name="sex" value="male" checked>Male<br>
-    <input type="radio" name="sex" value="female">Female<br>
-    <input type="submit" value="Submit">
-  </fieldset>  
+	<fieldset>
+		<legend>Personal information:</legend>
+		Enter first name:<br>
+		<input type='text' name="firstname"><br>
+		Enter last name:<br>
+		<input type='text' name="lastname"><br>
+		<input type="radio" name="sex" value="male" checked>Male<br>
+		<input type="radio" name="sex" value="female">Female<br>
+		<input type="submit" value="Submit">
+	</fieldset>  
 </form>  
-    </xmp>
-  </div>
+		</xmp>
+	</div>
 </div>
 
 <div class="row">
-  <div class="col-xs-10 col-xs-offset-1">
-    In Boostrap, our form block will have the role='form' and each form element 
-    will be wrapped in separate div's with the exception of the submit button. 
-    Text field elements have div's with a class='form-group'. The labels are  
-    wrapped in label tags with for='the_id'. The input for the text fielss have 
-    matching id's and a class of form-control. Text field's div's carry the class 
-    form-group but radio buttons have the radio class and checkboxes have the  
-    checkbox class. Buttons need not be wrapped in div's but rather they are put 
-    in button elements with type="submit".<br>
-  </div>
-  <div class="col-xs-2  col-xs-offset-1">
-    <br><br> 
-    <form action='' role='form'>
-      <fieldset>
-        <legend style="color:grey">Personal information:</legend>
-        <div class='form-group'>
-          <label for=''>First name:</label>
-          <input type='text' id='firstname' class='form-control'>
-        </div>
-        <div class='form-group'>
-          <label for=''>Last name:</label>
-          <input type='text' id='lastname' class='form-control'>
-        </div>
-        <div class="radio">
-          <label><input type="radio" name="optradio">Male</label>
-        </div>
-        <div class="radio">
-          <label><input type="radio" name="optradio">Female</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      <fieldset>
-    </form>    
-  </div>
-  
-  <div class="col-xs-6">    
-  <xmp>
+	<div class="col-xs-10 col-xs-offset-1">
+		In Boostrap, our form block will have the role='form' and each form element 
+		will be wrapped in separate div's with the exception of the submit button. 
+		Text field elements have div's with a class='form-group'. The labels are  
+		wrapped in label tags with for='the_id'. The input for the text fielss have 
+		matching id's and a class of form-control. Text field's div's carry the class 
+		form-group but radio buttons have the radio class and checkboxes have the  
+		checkbox class. Buttons need not be wrapped in div's but rather they are put 
+		in button elements with type="submit".<br>
+	</div>
+	<div class="col-xs-2  col-xs-offset-1">
+		<br><br> 
+		<form action='' role='form'>
+			<fieldset>
+				<legend style="color:grey">Personal information:</legend>
+				<div class='form-group'>
+					<label for=''>First name:</label>
+					<input type='text' id='firstname' class='form-control'>
+				</div>
+				<div class='form-group'>
+					<label for=''>Last name:</label>
+					<input type='text' id='lastname' class='form-control'>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="optradio">Male</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="optradio">Female</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			<fieldset>
+		</form>    
+	</div>
+	
+	<div class="col-xs-7">    
+	<xmp>
 <form action='action_page.php' role='form'>
-  <fieldset>
-    <legend style="color:grey">Personal information:</legend>
-    <div class='form-group'>
-      <label for='firstname'>First name:</label>
-      <input type='text' id='firstname' class='form-control'>
-    </div>
-    <div class='form-group'>
-      <label for='lastname'>Last name:</label>
-      <input type='text' id='lastname' class='form-control'>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="optradio">Male</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="optradio">Female</label>
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  <fieldset>
+	<fieldset>
+		<legend style="color:grey">Personal information:</legend>
+		<div class='form-group'>
+			<label for='firstname'>First name:</label>
+			<input type='text' id='firstname' class='form-control'>
+		</div>
+		<div class='form-group'>
+			<label for='lastname'>Last name:</label>
+			<input type='text' id='lastname' class='form-control'>
+		</div>
+		<div class="radio">
+			<label><input type="radio" name="optradio">Male</label>
+		</div>
+		<div class="radio">
+			<label><input type="radio" name="optradio">Female</label>
+		</div>
+		<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	<fieldset>
 </form>     
-  </xmp> 
+	</xmp> 
 </div>
 
-  <div class="row"><div class="col-xs-12"></div>
-    <div class="col-xs-1">
-      <%= link_to "Prev", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-    </div>
-    <div class="col-xs-2 col-xs-offset-9">
-      <%= link_to "Next", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
-    </div>
-  </div>  
+	<div class="row"><div class="col-xs-12"></div>
+		<div class="col-xs-1">
+			<%= link_to "Prev", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
+		</div>
+		<div class="col-xs-2 col-xs-offset-9">
+			<%= link_to "Next", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
+		</div>
+	</div>  
 
 
