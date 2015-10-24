@@ -21,7 +21,6 @@ class PagesController < ApplicationController
 	end
 
 	def navbars
-		render :layout => false
 	end
 
 	def list_groups
