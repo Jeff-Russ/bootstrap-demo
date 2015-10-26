@@ -1,33 +1,128 @@
-<%= link_to root_path do %>  
-<div class="well text-center link">
-	<h1 class="link">Bootstrap Demo</h1>
+<%provide(:page, "Bootstrap List Groups") %>
+<%provide(:prev, pages_navbars_path) %>
+<%provide(:next, pages_panels_path) %>
+
+<h4 class='bluish'>As Unordered Lists:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		List groups allow for way to style HTML lists with bootstrap. It is list 
+		group could be an unordered list with the class list-group where each item 
+		has the class list-group-item. In Sublime Text type 
+		ul.list-group>li.list-group-item{Item $}*4 and hit tab.<br>
+		
+	</div><div class="col-xs-4"></div>
 </div>
-<% end %>
+<div class='row'>
+	<div class="col-xs-4 black-text">
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item">Item 1</li>
+			<li class="list-group-item">Item 2</li>
+			<li class="list-group-item">Item 3</li>
+			<li class="list-group-item">Item 4</li>
+		</ul>
+		
+	</div>
+	<div class="col-xs-8">
+		<xmp>
+			
+<ul class="list-group">
+	<li class="list-group-item">Item 1</li>
+	<li class="list-group-item">Item 2</li>
+	<li class="list-group-item">Item 3</li>
+	<li class="list-group-item">Item 4</li>
+</ul>
+			
+		</xmp>
+	</div>
+</div>
 
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_navbars_path, class: 'btn btn-default btn-ghost' %>
+<h4 class='bluish'>As Divs Containing Links:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		You can also use a div with anchor tags instead of ul with li, respectively. 
+		Make one list-group-item active by adding the class active. Bootstrap 
+		colors can be added with the class list-group-item-XYZ where XYZ could be 
+		success, info, warning or danger.
+		<br>
+		
+	</div><div class="col-xs-4"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4 black-text">
+		<br>
+		<div class='list-group'>
+			<a class="list-group-item list-group-item-success active">Item 1</a>
+			<a class="list-group-item list-group-item-info">Item 2</a>
+			<a class="list-group-item list-group-item-warning">Item 3</a>
+			<a class="list-group-item list-group-item-danger">Item 4</a>
+		</div>
 	</div>
-	<div class="col-xs-9 text-center">
-		<h2>List Groups<h2>
+	<div class="col-xs-8">
+		<xmp>
+			
+<div class='list-group'>
+	<a class="list-group-item list-group-item-success active">Item 1</a>
+	<a class="list-group-item list-group-item-info">Item 2</a>
+	<a class="list-group-item list-group-item-warning">Item 3</a>
+	<a class="list-group-item list-group-item-danger">Item 4</a>
+</div>
+			
+		</xmp>
 	</div>
-	<div class="col-xs-2">
-		<%= link_to "Next", pages_panels_path, class: 'btn btn-default btn-ghost' %>
+</div>	
+
+<h4 class='bluish'>With Custom Content:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		You aren't limited to just li's and a' in a list group. You can have 
+		headers with the class list-group-item-heading and text with the class 
+		list-group-item-heading:
+		
+	</div><div class="col-xs-4 black-text"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4">
+		<br>
+		<div class='list-group'>
+			<a class="list-group-item list-group-item-success active">
+				<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+				<p class='list-group-item-text'>list-group-item-text</p>
+			</a>
+			<a class="list-group-item list-group-item-info ">
+				<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+				<p class='list-group-item-text'>list-group-item-text</p>
+			</a>
+			<a class="list-group-item list-group-item-danger ">
+				<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+				<p class='list-group-item-text'>list-group-item-text</p>
+			</a>
+		</div>
+		
+	</div>
+	<div class="col-xs-8">
+		<xmp>
+			
+<div class='list-group'>
+	<a class="list-group-item list-group-item-success active">
+		<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+		<p class='list-group-item-text'>list-group-item-text</p>
+	</a>
+	<a class="list-group-item list-group-item-info ">
+		<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+		<p class='list-group-item-text'>list-group-item-text</p>
+	</a>
+	<a class="list-group-item list-group-item-danger ">
+		<h4 class='list-group-item-heading'>list-group-item-heading</h4>
+		<p class='list-group-item-text'>list-group-item-text</p>
+	</a>
+</div>
+	
+		</xmp>
 	</div>
 </div>
 
-<div class="row">
  
- 
- 
- 
-
-
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_navbars_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-	<div class="col-xs-2 col-xs-offset-9">
-		<%= link_to "Next", pages_panels_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-</div>

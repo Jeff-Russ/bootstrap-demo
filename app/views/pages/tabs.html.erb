@@ -1,20 +1,6 @@
-<%= link_to root_path do %>  
-<div class="well text-center link">
-	<h1 class="link">Bootstrap Demo</h1>
-</div>
-<% end %>
-
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-	<div class="col-xs-9 text-center">
-		<h2>Tabs<h2>
-	</div>
-	<div class="col-xs-2">
-		<%= link_to "Next", pages_navbars_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-</div>
+<%provide(:page, "Bootstrap Tabs") %>
+<%provide(:prev, pages_dropdowns_path) %>
+<%provide(:next, pages_navbars_path) %>
 
 <!--  !-->
 
@@ -131,16 +117,3 @@
 <div class="row"><br><br>
 	On screen widths smaller than 768px, nav-justified will become nav-stacked.<br><br>
 </div>
-<!--  !-->
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_dropdowns_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-	<div class="col-xs-2 col-xs-offset-9">
-		<%= link_to "Next", pages_navbars_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-</div>
-
-
-
-<!-- .tab-pane#section-$*3>p{This is section $ content} !-->
