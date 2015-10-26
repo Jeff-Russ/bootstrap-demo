@@ -1,76 +1,200 @@
 <%provide(:page, "Bootstrap Panels") %>
-<%provide(:prev, root_path) %>
-<%provide(:next, root_path) %>
+<%provide(:prev, pages_list_groups_path) %>
+<%provide(:next, pages_model_windows_path) %>
 
-<h4 class='bluish'>1. Topic:</h4>
+<h4 class='bluish'>1. Panel Basics:</h4>
 <div class='row'>
 	<div class="col-xs-7 col-xs-offset-1">
 		
-		Description
+		Panels allow you to organize your content into visible boxes. The four 
+		most important divs contain the classes 'panel panel-default', 
+		'panel-heading', 'panel-body' and 'panel-footer'. The div with 
+		class='panel panel-default' contains the other three divs. 
 		
 	</div><div class="col-xs-4"></div>
 </div>
 <div class='row'>
-	<div class="col-xs-4">
-		
-		DISPLAY
+	<div class="col-xs-4 black-text">
+		<br>
+		<div class="panel panel-default">
+			<div class="panel-heading">Heading</div>
+			<div class="panel-body">Body</div>
+			<div class="panel-footer">Footer</div>
+		</div>	
 		
 	</div>
 	<div class="col-xs-6">
 		<xmp>
 			
-CODE
+<div class="panel panel-default">
+	<div class="panel-heading">Heading</div>
+	<div class="panel-body">Body</div>
+	<div class="panel-footer">Footer</div>
+</div>
+			
+		</xmp>
+	</div>
+</div>
+
+
+<h4 class='bluish'>2. Titles and Footers:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		To change the color scheme of the entire panel you can add the class 
+		panel-XYZ where XYZ could be primary, success, info, warning or danger. 
+		If you want more emphasis on the heading you can wrap it in an h 
+		tag with the class panel-title. 
+		
+	</div><div class="col-xs-4"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4 black-text">
+		<br>
+		<div class="panel panel-default panel-info">
+			<div class="panel-heading">
+				<h4 class='panel-title'>Heading</h4>
+			</div>
+			<div class="panel-body">Body</div>
+			<div class="panel-footer">Footer</div>
+		</div>	
+		
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+			
+<div class="panel panel-default panel-info">
+	<div class="panel-heading">
+		<h4 class='panel-title'>Heading</h4>
+	</div>
+	<div class="panel-body">Body</div>
+	<div class="panel-footer">Footer</div>
+</div>
 			
 		</xmp>
 	</div>
 </div>
 	
 
-<h4 class='bluish'>2. Topic:</h4>
+<h4 class='bluish'>3. Panels with Tables:</h4>
 <div class='row'>
 	<div class="col-xs-7 col-xs-offset-1">
 		
-		Description
+		Bootstrap Panels integrate very well with HTML tables. Add the bootstrap 
+		class "table" to an HTML table tag and put it anywhere inside the panel's 
+		parent div. 
 		
 	</div><div class="col-xs-4"></div>
 </div>
 <div class='row'>
-	<div class="col-xs-4">
-		
-		DISPLAY
+	<div class="col-xs-4 black-text">
+		<br><br>
+		<div class="panel panel-default panel-info">
+			<div class="panel-heading">
+				<h4 class='panel-title'>Heading</h4>
+			</div>
+			<div class="panel-body">Body</div>
+			
+			<table class="table">
+				<tr>
+					<th>Heading 1</th>
+					<th>Heading 2</th>
+					<th>Heading 3</th>
+				</tr>
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+				</tr>
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+				</tr>
+			</table>
+			
+			<div class="panel-footer">Footer</div>
+		</div>	
 		
 	</div>
 	<div class="col-xs-6">
 		<xmp>
 			
-CODE
+<div class="panel panel-default panel-info">
+	...
+	<table class="table">
+		<tr>
+			<th>Heading 1</th>
+			<th>Heading 2</th>
+			<th>Heading 3</th>
+		</tr>
+		<tr>
+			<td>Cell 1</td>
+			<td>Cell 2</td>
+			<td>Cell 3</td>
+		</tr>
+		<tr>
+			<td>Cell 1</td>
+			<td>Cell 2</td>
+			<td>Cell 3</td>
+		</tr>
+	</table>
+	...
+</div>
 			
 		</xmp>
 	</div>
 </div>
 			
 
-<h4 class='bluish'>3. Topic:</h4>
+<h4 class='bluish'>4. Panels with List Groups:</h4>
 <div class='row'>
 	<div class="col-xs-7 col-xs-offset-1">
 		
-		Description
+		Bootstrap Panels also integrate very well with Bootstrap List Groups. 
+		Just define a list group exactly as you normally would and place it 
+		anywhere inside the panel's parent div.  
+		
 		
 	</div><div class="col-xs-4"></div>
 </div>
 <div class='row'>
-	<div class="col-xs-4">
-		
-		DISPLAY
+	<div class="col-xs-4 black-text">
+		<br>
+		<div class="panel panel-default panel-info">
+			<div class="panel-heading">
+				<h4 class='panel-title'>Heading</h4>
+			</div>
+			<div class="panel-body">Body</div>
+			
+			<ul class="list-group">
+				<li class="list-group-item">List Item 1</li>
+				<li class="list-group-item">List Item 2</li>
+				<li class="list-group-item">List Item 3</li>
+				<li class="list-group-item">List Item 4</li>
+			</ul>
+			
+			<div class="panel-footer">Footer</div>
+		</div>	
 		
 	</div>
 	<div class="col-xs-6">
+		<br>
 		<xmp>
 			
-CODE
+<div class="panel panel-default panel-info">
+	...
+	<ul class="list-group">
+		<li class="list-group-item">List Item 1</li>
+		<li class="list-group-item">List Item 2</li>
+		<li class="list-group-item">List Item 3</li>
+		<li class="list-group-item">List Item 4</li>
+	</ul>
+	...
+</div>
 			
 		</xmp>
 	</div>
 </div>
- 
+			
  
