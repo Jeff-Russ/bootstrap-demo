@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'pages/navbars'
   get 'pages/list_groups'
   get 'pages/panels'
-  get 'pages/model_windows'
+  get 'pages/modal_windows'
   get 'pages/collapse_carousels'
 
   # The priority is based upon order of creation: first created -> highest priority.

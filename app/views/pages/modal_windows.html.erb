@@ -1,12 +1,20 @@
-<%provide(:page, "Bootstrap Collapse Carousels") %>
-<%provide(:prev, pages_modal_windows_path) %>
-<%provide(:next, root_path) %>
+<%provide(:page, "Bootstrap Modal Windows") %>
+<%provide(:prev, pages_panels_path) %>
+<%provide(:next, pages_collapse_carousels_path) %>
 
-<h4 class='bluish'>1. Topic:</h4>
+<h4 class='bluish'>1. The Parent Divs:</h4>
 <div class='row'>
 	<div class="col-xs-7 col-xs-offset-1">
 		
-		Description
+		Model Windows allow windows to pop up over the screen temporarily, usually 
+		for the user to make a selection. Three divs are used to contain the 
+		content of your model window, the outermost with the class model, the next 
+		with the class modal-dialog and the innermost with the class model-content. 
+		<br>
+		Additionally, the outermost div needs an id, a tabindex='-1' to block use 
+		of the tab button and role='dialog'. It's quite a bit but a good way to 
+		stub it out it in Sublime Text is .modal
+		
 		
 	</div><div class="col-xs-4"></div>
 </div>
@@ -72,6 +80,5 @@ CODE
 		</xmp>
 	</div>
 </div>
- 
  
  
