@@ -29,9 +29,16 @@
 .jr-dark-body { color: #ffffd0; background-color: #404040; }
 .black-text   { color: #000; }
 .bluish { color: #bbddee; }
-.blacknav     { color: #b0b0b0 !important; background-color: #333333 !important; }
+.blacknav     { color: #ffffd0 !important; background-color: #333333 !important; }
 .jumbotron    { color: #ffffd0 !important; background-color: #606F60 !important; }
 .well         { color: #ffffd0 !important; background-color: #606F60 !important; }
+.greenwell    { color: #ffffd0 !important; background-color: #606F60 !important; }
+
+/* disable navbar collapse */
+.navbar-collapse.collapse           { display: block!important; }
+.navbar-nav>li, .navbar-nav         { float: left !important; }
+.navbar-nav.navbar-right:last-child { margin-right: -15px !important; }
+.navbar-right                       { float: right!important; }
 
 a:hover, a:focus { text-decoration: none !important; }
 

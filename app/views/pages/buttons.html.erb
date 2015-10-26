@@ -1,20 +1,6 @@
-<%= link_to root_path do %>  
-<div class="well text-center link">
-	<h1 class="link">Bootstrap Demo</h1>
-</div>
-<% end %>
-	
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-	<div class="col-xs-9 text-center">
-		<h2>Buttons<h2>
-	</div>
-	<div class="col-xs-2">
-		<%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-</div>
+<%provide(:page, "Bootstrap Buttons") %>
+<%provide(:prev, pages_grids_path) %>
+<%provide(:next, pages_glyphs_path) %>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
 	<h4>Seven Colors</h4>
@@ -112,14 +98,3 @@ transition: background .2s ease-in-out, border .2s ease-in-out;
 <button type="button" class="btn btn-primary btn-block">Button 1</button>
 	</xmp>
 </div></div>
-
-
-<div class="row">
-	<div class="col-xs-1">
-		<%= link_to "Prev", pages_grids_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-	<div class="col-xs-2 col-xs-offset-9">
-		<%= link_to "Next", pages_glyphs_path, class: 'btn btn-default btn-ghost' %>
-	</div>
-</div></div>
-

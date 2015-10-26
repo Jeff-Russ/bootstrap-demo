@@ -9,27 +9,51 @@
 </head>
 <body class="jr-dark-body">
 	
-	<nav class="navbar navbar-inverse navbar-static-top blacknav" role="navigation">
+	<nav class="navbar navbar-inverse navbar-fixed-top blacknav" role="navigation">
 		<div class='container'>
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+			<div class="navbar-left">
 				<%= link_to '#', class: 'navbar-brand' do %>
-						Jeff Russ
+					Jeff Russ
 				<% end %>
 			</div>
-			<div class="collapse navbar-collapse" >
-					
-			</div><!-- /.navbar-collapse -->
+			
+			<div class="navbar-right" id="topnav-collapse">
+				
+				<%= link_to yield(:prev) do %>
+				<button class="btn navbar-btn glyphicon glyphicon-arrow-left greenwell">
+				</button>
+				<% end %>
+				
+				<%= link_to root_path do %>  
+				<button class="btn navbar-btn greenwell" type='button'>
+						Bootstrap Demos
+				</button> 
+				<% end %>
+				
+				<%= link_to yield(:next) do %>	
+				<button class="btn navbar-btn glyphicon glyphicon-arrow-right greenwell">
+				</button>
+				<% end %>
+			</div>
 		</div>
 	</nav>
 
 	<div class="container">
+		
+		<br><br><br>
+		<%= link_to root_path do %>  
+		<div class="well text-center link">
+			<h1 class="link"><%= yield(:page) %></h1>
+		</div>
+		<% end %>
+
 		<%= yield %>
+		
+		<div class="row">
+			<div class="span12">
+				<br><br><hr><p>    © Copyright 2015 Jeffrey Russ.</p><br><br><br>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
