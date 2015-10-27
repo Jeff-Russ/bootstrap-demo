@@ -198,3 +198,165 @@
 </div>
 			
  
+<h4 class='bluish'>5. Panel Groups:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		You can collapse and expand portions of the page like an accordion using 
+		the panel-collapse class. Each of these portions will be a panel within a 
+		panel group. This is the first step to making a panel-collapse. We assigned 
+		an id to the group, which will be needed later.
+		
+	</div><div class="col-xs-4"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4 black-text">
+		<br><br><br>
+		
+		<div class="panel-group"">
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class='panel-title'>Heading 1</h4>
+				</div>
+				<div class="panel-body">Body 1</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class='panel-title'>Heading 2</h4>
+				</div>
+				<div class="panel-body">Body 2</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class='panel-title'>Heading 2</h4>
+				</div>
+				<div class="panel-body">Body 2</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class='panel-title'>Heading 1</h4>
+		</div>
+		<div class="panel-body">Body 1</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class='panel-title'>Heading 2</h4>
+		</div>
+		<div class="panel-body">Body 2</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class='panel-title'>Heading 2</h4>
+		</div>
+		<div class="panel-body">Body 2</div>
+	</div>
+</div>
+		</xmp>
+	</div>
+</div>
+			
+
+
+ 
+<h4 class='bluish'>5. Panel Collapse:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		
+		Now that we have the group set we can set it up so that only one panel is 
+		showing at a time. Expanding one collapses the others. First we change the 
+		contents of the titles to that they are links to the body. We'll wrap each 
+		body in a div with an id that matches the link. In addition to the href 
+		being the id, each anchor also needs data-toggle="collapse" and 
+		data-parent="#accordion'. As for the div's around each body, in addition 
+		their id's they also need class="panel-collapse collapse". Note that the 
+		first panel's body has the additional class=' ... in'. This makes it be 
+		expanded right from the start.
+		
+	</div><div class="col-xs-4"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4 black-text">
+		<br><br><br>
+	
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#body-1" data-toggle="collapse" 
+							data-parent="#accordion">Heading 1</a></h4>
+				</div>
+				<div class="panel-collapse collapse in" id="body-1">
+					<div class="panel-body">Body 1</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#body-2" data-toggle="collapse" 
+							data-parent="#accordion">Heading 2</a></h4>
+				</div>
+				<div class="panel-collapse collapse" id="body-2">
+					<div class="panel-body">Body 2</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#body-3" data-toggle="collapse" 
+							data-parent="#accordion">Heading 3</a></h4>
+				</div>
+				<div class="panel-collapse collapse" id="body-3">
+					<div class="panel-body">Body 3</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a href="#body-1" data-toggle="collapse" 
+					data-parent="#accordion">Heading 1</a></h4>
+		</div>
+		<div class="panel-collapse collapse in" id="body-1">
+			<div class="panel-body">Body 1</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a href="#body-2" data-toggle="collapse" 
+					data-parent="#accordion">Heading 2</a></h4>
+		</div>
+		<div class="panel-collapse collapse" id="body-2">
+			<div class="panel-body">Body 2</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a href="#body-3" data-toggle="collapse" 
+					data-parent="#accordion">Heading 3</a></h4>
+		</div>
+		<div class="panel-collapse collapse" id="body-3">
+			<div class="panel-body">Body 3</div>
+		</div>
+	</div>
+</div>
+		</xmp>
+	</div>
+</div>
