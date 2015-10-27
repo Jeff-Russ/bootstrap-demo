@@ -29,9 +29,9 @@ class PagesController < ApplicationController
 	def panels
 	end
 
-	def modal_windows
+	def carousels
 	end
-
-	def collapse_carousels
+	
+	def modal_windows
 	end
 end
