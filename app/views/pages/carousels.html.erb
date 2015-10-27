@@ -13,7 +13,13 @@
 <div class='row'>
 	<div class="col-xs-4">
 		
-		DISPLAY
+		<div class="carousel slide" id="carousel-example" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="carousel-example" data-slide-to=""></li>
+				<li data-target="carousel-example" data-slide-to=""></li>
+				<li data-target="carousel-example" data-slide-to=""></li>
+			</ol>
+		</div>
 		
 	</div>
 	<div class="col-xs-6">
@@ -74,4 +80,6 @@ CODE
 </div>
  
  
- 
+ .carousel.slide[data-ride='carousel']#carousel-example
+ 	ol.carousel-indicators>li[data-target='carousel-example'][data-slide-to'0']*3
+ 	.carousel-inner
