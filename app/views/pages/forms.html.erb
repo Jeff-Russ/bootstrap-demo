@@ -202,17 +202,78 @@
 
 <h4 class='bluish'>4. Horizontal Forms:</h4>
 <div class="row"> <!-- example 4 !-->
-	<div class="col-xs-12"><br>
+
+	<div class="col-xs-6"><br>
+		<p>Horizontal forms are similar to inline form only they place the labels 
+		to the left of the fields.<br><br>
+
+		<form action="#" class="form-horizontal" role="form">
+			
+			<div class="form-group">
+				<label for="contact-name" class="col-lg-2 control-label">
+					Name</label>
+				<div class="col-xs-6">
+					<input type="text" class="form-control" 
+							id="contact-name" placeholder="Name">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label for="contact-email" class="col-lg-2 control-label">
+					Email</label>
+				<div class="col-xs-6">
+					<input type="email" class="form-control" 
+							id="contact-email" placeholder="Email Address">
+				</div>
+			</div>
+	
+			<div class="form-group">
+				<label for="contact-message" class="col-lg-2 control-label">
+					Message</label>
+				<div class="col-xs-6">
+					<textarea name="contact-message" id="contact-message" 
+							class="form-control" cols="20" rows="10" 
+							placeholder="Message"></textarea>
+				</div>
+	
+				
+			</div>
+		</form>
+	
 	</div>
-</div>
-<div class="row">
-	<div class="col-xs-5"><br><br>
-		TODO add this section <br><br>
+
+	<div class="col-xs-6">    
+		<xmp>
+<form action="#" class="form-horizontal" role="form">
+	
+	<div class="form-group">
+		<label for="contact-name" class="col-lg-2 control-label">
+			Name</label>
+		<div class="col-xs-8">
+			<input type="text" class="form-control" 
+					id="contact-name" placeholder="Name">
+		</div>
 	</div>
 	
-	<div class="col-xs-7">    
-		<xmp>
-			
+	<div class="form-group">
+		<label for="contact-email" class="col-lg-2 control-label">
+			Email</label>
+		<div class="col-xs-8">
+			<input type="email" class="form-control" 
+					id="contact-email" placeholder="Email Address">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="contact-message" class="col-lg-2 control-label">
+			Message</label>
+		<div class="col-xs-8">
+			<textarea name="contact-message" id="contact-message" 
+					class="form-control" cols="20" rows="10" 
+					placeholder="Message"></textarea>
+		</div>
+	</div>
+</form>			
 		</xmp> 
 	</div>
 </div>
