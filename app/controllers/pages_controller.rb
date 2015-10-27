@@ -34,4 +34,7 @@ class PagesController < ApplicationController
 	
 	def modal_windows
 	end
+	
+	def odds_n_ends
+	end
 end
