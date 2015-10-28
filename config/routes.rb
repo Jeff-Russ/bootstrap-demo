@@ -6,12 +6,12 @@ Rails.application.routes.draw do
   get 'pages/forms'
   get 'pages/dropdowns'
   get 'pages/tabs'
-  get 'pages/navbars'
+  get 'pages/navbar_basics'
+  get 'pages/navbar_uses'
   get 'pages/list_groups'
   get 'pages/panels'
   get 'pages/carousels'
   get 'pages/modal_windows'
-  get 'pages/odds_n_ends'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
