@@ -11,17 +11,17 @@
 	
 	<nav class="navbar navbar-inverse navbar-fixed-top blacknav" role="navigation">
 		<div class='container'>
-			<div class="navbar-left">
-				<%= link_to '#' do %>
+			<div class="navbar-left" style='margin-top: -15px;'>
+				<%= link_to '#', class: "navbar-brand" do %>
 					<button class="btn navbar-btn greenwell">
 						<!--<img style="max-width:100px; margin-top: -7px;"-->
-						<img style="max-width:50px; margin-top: 2px;"
+						<img style="max-width:50px; margin-top: -2px;"
 							src="/assets/JR_20px_wide.png">
 					</button>
 				<% end %>
 			</div>
 			
-			<div class="navbar-right" id="topnav-collapse">
+			<div class="navbar-right">
 				
 				<%= link_to yield(:prev) do %>
 				<span class="glyphicon glyphicon-chevron-left jr-green" style="font-size: 20px" >
@@ -30,7 +30,7 @@
 				
 				<%= link_to root_path do %>  
 				<button class="btn navbar-btn greenwell" type='button'>
-						Bootstrap Demos
+						<%= yield(:page)  %>
 				</button> 
 				<% end %>
 				
