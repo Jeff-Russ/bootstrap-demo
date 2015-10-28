@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= favicon_link_tag 'favicon.ico' %>
+	<title>Bootstrap Demo</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+	
+	<script type="text/javascript">
+		window.addEventListener("hashchange", function() { scrollBy(0, -50) })
+	</script>
+
+</head>
+
+<body data-spy='scroll' data-target='#demo-navbar'>
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="demo-navbar" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" 
+						data-toggle="collapse" data-target'#navbar-collapse'>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#section1">section1</a></li>
+					<li><a href="#section2">section2</a></li>
+					<li><a href="#section3">section3</a></li>
+					<li><a href="#section4">section4</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="section1" style='padding-top: 24px;'>
+		<h1>section1</h1>
+		<p><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+		Dolorem,nulla, accusantium perferendis unde autem asperiores libero <br>
+		commodi corporis non molestias laudantium sed minima consequatur <br>
+		delectus vitae laborum aperiam magnam praesentium!<br><br></p>
+	</div>
+	
+	<div id="section2">
+		<h1>section2</h1>
+		<p><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+		Dolorem,nulla, accusantium perferendis unde autem asperiores libero <br>
+		commodi corporis non molestias laudantium sed minima consequatur <br>
+		delectus vitae laborum aperiam magnam praesentium!<br><br></p>	
+	</div>	
+	
+	<div id="section3">
+		<h1>section3</h1>
+		<p><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+		Dolorem,nulla, accusantium perferendis unde autem asperiores libero <br>
+		commodi corporis non molestias laudantium sed minima consequatur <br>
+		delectus vitae laborum aperiam magnam praesentium!<br><br></p>	
+	</div>
+	
+	<div id="section4">
+		<h1>section4</h1>
+		<p><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+		Dolorem,nulla, accusantium perferendis unde autem asperiores libero <br>
+		commodi corporis non molestias laudantium sed minima consequatur <br>
+		delectus vitae laborum aperiam magnam praesentium!<br><br></p>	
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+</body>
+
