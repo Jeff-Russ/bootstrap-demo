@@ -2,15 +2,15 @@
 <%provide(:prev, pages_grids_path) %>
 <%provide(:next, pages_glyphs_path) %>
 
+<h4 class='bluish'>1. Seven Colors:</h4>
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-	<h4>Seven Colors</h4>
 	<button type="button" class="btn btn-default">Default</button>
-	<span type="button" class="btn btn-primary">Primary</span>
-	<div type="button" class="btn btn-success">Success</div>
-	<p type="button" class="btn btn-info">Info</p>
-	<form type="button" class="btn btn-warning">Warning</form>
-	<menuitem type="button" class="btn btn-danger">Danger</menuitem>
-	<input type="button" class="btn btn-link">Link</input>
+	<button type="button" class="btn btn-primary">Primary</button>
+	<button type="button" class="btn btn-success">Success</button>
+	<button type="button" class="btn btn-info">Info</button>
+	<button type="button" class="btn btn-warning">Warning</button>
+	<button type="button" class="btn btn-danger">Danger</button>
+	<button type="button" class="btn btn-link">Link</button>
 </div></div>
 
 <div class="row"> <div class="col-xs-11 col-xs-offset-1"><br>
@@ -19,14 +19,17 @@
 	type="submit" rather than type="button"<br>
 	<xmp>
 <button type="button" class="btn btn-default">Default</button>
-<span type="button" class="btn btn-primary">Primary</span>
-<div type="button" class="btn btn-success">Success</div>
-<p type="button" class="btn btn-info">Info</p>
-<form type="button" class="btn btn-warning">Warning</form>
-<menuitem type="button" class="btn btn-danger">Danger</menuitem>
-<input type="button" class="btn btn-link">Link</input>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
 	</xmp>
-	<h4>As Links</h4>
+</div>
+	
+<h4 class='bluish'>2. As Links:</h4>
+<div class="row"> <div class="col-xs-11 col-xs-offset-1">
 	Buttons can also be in used for links using the anchor tag or used with the 
 	link_to function in a Rails application:
 	<xmp>
@@ -35,8 +38,8 @@
 	</xmp>
 </div> </div>
 
+<h4 class='bluish'>2. Button Sizes:</h4>
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-	<h4>Button Sizes</h4>
 	They are available in four different sizes:<br>
 	<button type="button" class="btn btn-primary btn-lg">Large</button>
 	<button type="button" class="btn btn-primary btn-md">Medium</button>
@@ -50,8 +53,8 @@
 	</xmp>
 </div></div>
 
+<h4 class='bluish'>3. Disabled Buttons:</h4>
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-	<h4>Disabled Buttons</h4>
 	Buttons can be either active or disabled. The active class makes a button 
 	be clickable, and the disabled class makes a button unavailable:<br><br>
 	<button type="button" class="btn btn-primary active">Active Primary</button>
@@ -62,8 +65,8 @@
 	</xmp>
 </div></div>
 
+<h4 class='bluish'>4. Transparent Buttons:</h4>
 <div class="row"> <div class="col-xs-11 col-xs-offset-1">
-	<h4>Transparent Buttons</h4>
 	Although not part of bootstrap, you can get transparent buttons by using a 
 	little CSS.<br><br>
 	<button type="button" class="btn btn-default btn-ghost">Default</button>
@@ -89,12 +92,28 @@ transition: background .2s ease-in-out, border .2s ease-in-out;
 	</xmp>
 </div></div>
 
+<h4 class='bluish'>5. Block Level Buttons:</h4>
 <div class="row"> <div class="col-xs-11 col-xs-offset-1"> 
-	<h4>Block Level Buttons</h4>    
 	Normally a button will expand and contract to accomodate the contents inside it. 
 	A button with the class btn-block will span the entire width of the parent element.<br><br>
 	<button type="button" class="btn btn-primary btn-block">Button 1</button>
 	<xmp>
 <button type="button" class="btn btn-primary btn-block">Button 1</button>
+	</xmp>
+</div></div>
+
+<h4 class='bluish'>6. Button Groups:</h4>
+<div class="row"> <div class="col-xs-11 col-xs-offset-1"> 
+	You can effect the appearance and spacing of buttons by grouping them together. 
+	To do this, simply wrap your buttons in a div with the class btn-group. <br><br>
+	<div class="btn-group">
+		<button type="button" class="btn btn-success btn-lg">BUY NOW!</button>
+		<button type="button" class="btn btn-primary btn-lg">get for free</button>
+	</div>
+	<xmp>
+<div class="btn-group">
+	<button type="button" class="btn btn-success btn-lg">BUY NOW!</button>
+	<button type="button" class="btn btn-primary btn-lg">get for free</button>
+</div>
 	</xmp>
 </div></div>

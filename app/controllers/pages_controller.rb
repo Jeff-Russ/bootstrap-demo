@@ -20,11 +20,8 @@ class PagesController < ApplicationController
 	def tabs
 	end
 
-	def navbar_basics
+	def navbars
 	end	
-	
-	def navbar_uses
-	end
 
 	def list_groups
 	end
@@ -36,6 +33,10 @@ class PagesController < ApplicationController
 	end
 	
 	def modal_windows
+	end
+	
+	def test_page
+		render :layout => false
 	end
 	
 end
