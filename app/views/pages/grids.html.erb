@@ -1,7 +1,8 @@
-<%provide(:page, "Bootstrap Grid System") %>
+<%provide(:page, "Bootstrap Grids and Sections") %>
 <%provide(:prev, root_path) %>
 <%provide(:next, pages_buttons_path) %>
 
+<h4 class='bluish'>1. Grid Basics:</h4>
 <div class="container dark-bg-g border-orange"><br>
 	The orange border is there to show you that this is a div with the bootstrap container class.<br>
 	<div class="row"><br>
@@ -50,6 +51,7 @@
 	</xmp>
 </div><br><br>
 
+<h4 class='bluish'>2. Grid Collapse:</h4>
 <div class="container dark-bg-g border-orange"><br>
 	xs rows will be the side by side on all screen sizes but if you specified lg 
 	instead, the rows would collapse into being stacked vertically on any screen 
@@ -63,6 +65,7 @@
 	<br>
 </div><br><br>
 
+<h4 class='bluish'>3. Adaptive Grids:</h4>
 <div class="container dark-bg-g border-orange"><br>
 	The div's below will size differently on different screen sizes because they 
 	given multiple attributes. Resize the screen to watch them change classes. <br><br>
@@ -76,6 +79,7 @@
 	</xmp>
 </div><br><br>
 
+<h4 class='bluish'>4. Grid Offsets:</h4>
 <div class="container dark-bg-g border-orange"><br>
 	You can use offset to add a little empty space to the left. Add empty space 
 	to the right side of the entire row simply by not adding up to 12 before closing 
@@ -92,3 +96,63 @@
 	<br><br>
 </div>
 <br><br>
+
+<h4 class='bluish' id='jumbotron'>5. Jumbotron:</h4>
+<div class='row'>
+	<div class="col-xs-12">
+		
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Jumbotron</h1>
+			<p>A paragraph.</p>
+		</div>
+	</div>
+		
+	</div>
+</div>
+<div class='row'>
+	<div class="col-xs-5 col-xs-offset-1">
+		<br><br><p>To create a big banner area to put a page title you can create a div with 
+		the class jumbotron. If it is atop the page and you have a navbar, the navbar 
+		will hide part of the jumbrotron. One fix is some inline CSS as you see  
+		here. </p>
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+	<style> body { padding-top 50px; } </style>		
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Jumbotron</h1>
+			<p>A paragraph.</p>
+		</div>
+	</div>
+		</xmp>
+	</div>
+</div>
+			
+<h4 class='bluish'id='well'>6. Well:</h4>
+<div class='row'>
+	<div class="col-xs-6">
+		<div class="well">a well</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="well">a well</div>
+	</div>
+</div>
+<div class='row'>
+	<div class="col-xs-5 col-xs-offset-1">
+		<br><br><p>A well is similar to jumbotron only much more subtle. It's meant 
+		to give an element to give it an inset effect.</p>
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+	<style> body { padding-top 50px; } </style>		
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Jumbotron</h1>
+			<p>A paragraph.</p>
+		</div>
+	</div>
+		</xmp>
+	</div>
+</div>

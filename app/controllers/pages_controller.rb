@@ -20,7 +20,10 @@ class PagesController < ApplicationController
 	def tabs
 	end
 
-	def navbars
+	def navbar_basics
+	end	
+	
+	def navbar_uses
 	end
 
 	def list_groups
@@ -35,6 +38,4 @@ class PagesController < ApplicationController
 	def modal_windows
 	end
 	
-	def odds_n_ends
-	end
 end

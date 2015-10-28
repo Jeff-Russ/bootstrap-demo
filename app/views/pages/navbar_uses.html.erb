@@ -1,0 +1,54 @@
+<%provide(:page, "Navbar Uses") %>
+<%provide(:prev, pages_navbar_basics_path) %>
+<%provide(:next, pages_list_groups_path) %>
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom" id="demo-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" type="button" 
+					data-toggle="collapse" data-target'#navbar-collapse'>
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#jumbotron">Jumbotron</a></li>
+				<li><a href="#well">Well</a></li>
+				<li><a href="#img-responsive">Responsive Images</a></li>
+				<li><a href="#scroll-spy">Scroll Spy</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<h4 class='bluish'id='scroll-spy'>1. Scroll Spy:</h4>
+<div class='row'>
+	<div class="col-xs-7 col-xs-offset-1">
+		<p>Rather that breaking up your site into many pages you can have all of 
+		the content on one page with navigation to each section via a navbar, for 
+		example. If the navbar is fixed at the top or botton it would be nice to 
+		have it display the current section being viewed. <br>This is possible 
+		by adding some bootstrap attributes to the body of the page. We are 
+		tracking scrolling so we add data-spy='scroll'. The navagation element was 
+		given an id and we will target that by adding data-target='#main-navbar' 
+		(in the case of the navbar having id='main-navbar'). This is all you need 
+		to do!</p>
+	</div><div class="col-xs-4"></div>
+</div>
+<div class='row'>
+	<div class="col-xs-4">
+		
+		DISPLAY
+		
+	</div>
+	<div class="col-xs-6">
+		<xmp>
+			
+CODE
+			
+		</xmp>
+	</div>
+</div>
