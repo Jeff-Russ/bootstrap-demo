@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'pages/carousels'
   get 'pages/modal_windows'
   get 'pages/test_page'
+  get 'pages/test_page2'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

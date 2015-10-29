@@ -39,4 +39,8 @@ class PagesController < ApplicationController
 		render :layout => false
 	end
 	
+	def test_page2
+		render :layout => false
+	end
+	
 end

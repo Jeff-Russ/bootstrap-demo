@@ -28,13 +28,33 @@
 */
 .jr-dark-body { color: #ffffd0; background-color: #404040; }
 .black-text   { color: #444; }
+.jr-green-bg  { background-color: #606F60; }
 .bluish { color: #bbddee; }
 .blacknav     { color: #ffffd0 !important; background-color: #333333 !important; }
 .jumbotron    { color: #ffffd0 !important; background-color: #606F60 !important; }
-.well         { color: #ddd !important; background-color: #3f3f3f !important; border-color: #666 !important;}
+.well         { color: #ddd !important; background-color: #393939 !important; border-color: #666 !important;}
 .greenwell    { color: #94ba65 !important; background-color: #3e423e !important; }
 .jr-green     { color: #94ba65; }
 .nav-spacer   { padding-top: 60px; }
+
+// .modal-header {
+//     padding:9px 15px;
+//     border-bottom:1px solid #606F60;
+//     background-color: #606F60;
+//     -webkit-border-top-left-radius: 5px;
+//     -webkit-border-top-right-radius: 5px;
+//     -moz-border-radius-topleft: 5px;
+//     -moz-border-radius-topright: 5px;
+//     border-top-left-radius: 5px;
+//     border-top-right-radius: 5px;
+//  }
+ 
+ 
+
+
+.modal.custom .modal-dialog .modal-body {
+	background-color: #404040;
+}
 
 
 
@@ -67,7 +87,7 @@ a:hover, a:focus { text-decoration: none !important; }
 	transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
-.spacer { margin-top: 40px; }
+.spacer { margin-top: 40px; background-color: #404040; }
 
 xmp {
 	border:1px solid #999;
@@ -77,6 +97,10 @@ xmp {
 	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 	font-size: 85%;
 	tab-size: 3;
+}
+
+.invisible {
+    display: none;
 }
 
 
