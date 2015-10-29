@@ -1,19 +1,21 @@
 Rails.application.routes.draw do
-  root 'pages#home'
-  get 'pages/grids'
-  get 'pages/buttons'
-  get 'pages/glyphs'
-  get 'pages/forms'
-  get 'pages/dropdowns'
-  get 'pages/tabs'
-  get 'pages/navbars'
-  get 'pages/list_groups'
-  get 'pages/panels'
-  get 'pages/carousels'
-  get 'pages/modal_windows'
-  get 'pages/test_page'
-  get 'pages/test_page2'
+  get 'bootstrap/home'
+  get 'bootstrap/grids'
+  get 'bootstrap/buttons'
+  get 'bootstrap/glyphs'
+  get 'bootstrap/forms'
+  get 'bootstrap/dropdowns'
+  get 'bootstrap/tabs'
+  get 'bootstrap/navbars'
+  get 'bootstrap/list_groups'
+  get 'bootstrap/panels'
+  get 'bootstrap/images'
+  get 'bootstrap/modals'
+  get 'bootstrap/test1'
+  get 'bootstrap/test2'
 
+  root 'bootstrap#home'
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
