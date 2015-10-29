@@ -6,15 +6,15 @@
 
 <h4 class='bluish'>1. The nav element:</h4>
 <div class="row"><!--  part 1 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
 		</nav>
 	</div>
-	<div class="col-xs-5"><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br>
 		The bare minimum to make a navbar as seen above is this code:
 	</div>
 
-	<div class="col-xs-7">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 	<nav class="navbar navbar-default" role="navigation">
 	</nav>
@@ -24,7 +24,7 @@
 
 <h4 class='bluish'>2. Navbar container:</h4>
 <div class="row"><!--  part 2 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -33,14 +33,14 @@
 			</div>
 		</nav>
 	</div>
-	<div class="col-xs-5"><br><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br><br>
 		Place all of your navbar components inside a div container with 
 		class="navbar-header". To create a title on the left side create a div and 
 		inside the div, add an anchor with the class='navbar-brand' which is the
 		term for title or logo for your site. Here is the code for the navbar above:
 	</div>
 	
-	<div class="col-xs-7">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container">
@@ -55,7 +55,7 @@
 
 <h4 class='bluish'>3. The Three Lined Button:</h4>
 <div class="row"><!--  part 3 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -71,7 +71,7 @@
 			</div>
 		</nav>
 	</div>
-	<div class="col-xs-5"><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br>
 		For a button that will appear in response to a smaller screen we will create 
 		a button with the class='navbar-toggle' and data-toggle'collapse'. Right now 
 		all we have on our navbar is a title, but once we have items that can't fit 
@@ -88,7 +88,7 @@
 		all the code:
 	</div>
 	
-	<div class="col-xs-7">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container">
@@ -110,7 +110,7 @@
 
 <h4 class='bluish'>4. Adding Links:</h4>
 <div class="row"><!--  part 4 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -134,7 +134,7 @@
 			</div>
 		</nav>
 	</div>
-	<div class="col-xs-5"><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br>
 		All of what we have now is in the navbar-header div. Still inside of the 
 		container but outside of navbar-header we can create the items on the navbar. 
 		We will create a new div with the same id as the button. It will have the 
@@ -146,7 +146,7 @@
 		made the first one be active. <br>
 	</div>
 	
-	<div class="col-xs-7">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 <nav class="navbar navbar-default" role="navigation">
 	...
@@ -164,7 +164,7 @@
 
 <h4 class='bluish'>5. A Search Box:</h4>
 <div class="row"><!--  part 5 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -195,7 +195,7 @@
 			</div>
 		</nav>
 	</div>
-	<div class="col-xs-4"><br><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br><br>
 		To put a search box we will use a form. form.navbar-form.navbar-left and 
 		hit tab add a role='search' and create a div inside it with the class 
 		form-group just as we do with forms. The rest is as expected with forms. 
@@ -206,7 +206,7 @@
 		Click on the button and there they are!
 	</div>
 	
-	<div class="col-xs-8">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 <nav class="navbar navbar-default" role="navigation">
 	...
@@ -231,9 +231,8 @@
 
 <h4 class='bluish'>6. Adding Other Elements:</h4>
 <div class="row"><!--  part 6 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<nav class="navbar navbar-default" role="navigation">
-			<div class="container">
 				<div class="navbar-header">
 					<button type='button' class='navbar-toggle' data-toggle='collapse' 
 													data-target='#example6-nav-collapse'>
@@ -262,16 +261,15 @@
 					</form>
 				</div>
 				
-			</div>
 		</nav>
 	</div>
-	<div class="col-xs-4"><br><br><br>
+	<div class="col-xs-12 col-md-4 col-md-offset-1"><br><br>
 	The seach, or any element, can be moved to the right with the navbar-right class. 
 	Adding other elements can break the style unless you add the right bootstrap 
 	classes. 
 	</div>
 	
-	<div class="col-xs-8">
+	<div class="col-xs-12 col-md-7">
 		<xmp>
 <nav class="navbar navbar-default" role="navigation">
 		...
@@ -286,7 +284,7 @@
 
 <h4 class='bluish'>7. Navbar Options:</h4>
 <div class="row"><!--  part 7 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		Adding the class navbar-fixed-top places it on the top of the page no 
 		matter how far down the user has scrolled. Likewise you can use 
 		navbar-fixed-bottom. If you want inverted colors use navbar-inverse 
@@ -296,7 +294,7 @@
 
 <h4 class='bluish'>8. Scroll Spy:</h4>
 <div class="row"><!--  part 7 !-->
-	<div class="col-xs-12">
+	<div class="col-xs-12 col-md-11 col-md-offset-1">
 		<p>Rather that breaking up your site into many pages you can have all of 
 		the content on one page with navigation to each section via a navbar, for 
 		example. The navbar can contain href links to id's placed in tags throughout 
@@ -311,7 +309,7 @@
 		An example is given below:</p>
 	</div>
 
-	<div class="col-xs-11 col-xs-offset-1">
+	<div class="col-xs-11 col-md-11 col-md-offset-1">
 		<xmp>
 <nav class="navbar navbar-inverse navbar-fixed-bottom" id="demo-navbar" role="navigation">
 	<div class="container">
